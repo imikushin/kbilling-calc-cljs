@@ -8,7 +8,7 @@
                               :snapshots false}]]
 
   :dependencies [[org.clojure/clojure "1.7.0"]
-                 [org.clojure/clojurescript "1.7.145"]
+                 [org.clojure/clojurescript "1.7.170"]
                  [com.cognitect/transit-cljs "0.8.225"]
                  [org.clojure/core.match "0.3.0-alpha4"]]
 
@@ -38,7 +38,7 @@
                                                       :optimizations :none
                                                       :static-fns    true}}}}
 
-  :profiles {:dev {:plugins      [[lein-cljsbuild "1.1.0"]
+  :profiles {:dev {:plugins      [[lein-cljsbuild "1.1.1"]
                                   [lein-npm "0.6.1"]]
                    :dependencies [[org.bodil/cljs-noderepl "0.1.11"]
                                   [com.cemerick/clojurescript.test "0.3.3"]]}}
